@@ -19,8 +19,8 @@
 **Build. Command. Raid. Survive.**  
 *A jungle survival war game — with a full modding framework.*
 
-[![Latest Release](https://img.shields.io/github/v/release/your-org/jungle-warfare?style=for-the-badge&color=3a6b35&label=Latest+Release)](JungleWarfare-DevTeam/JungleWarfare/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/your-org/jungle-warfare/total?style=for-the-badge&color=2d5016&label=Total+Downloads)](JungleWarfare-DevTeam/JungleWarfare/releases)
+[![Latest Release](https://img.shields.io/github/v/release/your-org/jungle-warfare?style=for-the-badge&color=3a6b35&label=Latest+Release)](../../releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/your-org/jungle-warfare/total?style=for-the-badge&color=2d5016&label=Total+Downloads)](../../releases)
 [![Godot 4.x](https://img.shields.io/badge/Godot-4.x-478cbf?style=for-the-badge&logo=godotengine&logoColor=white)](https://godotengine.org/)
 [![GDScript](https://img.shields.io/badge/Mods-GDScript-478cbf?style=for-the-badge)](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/)
 [![Source Code](https://img.shields.io/badge/Source_Code-Closed-red?style=for-the-badge)]()
@@ -34,6 +34,33 @@
 > This is the official **releases page** for Jungle Warfare — game binaries and the Mod SDK are both distributed here.  
 > The game is **free to download and play**. The **source code is closed and will not be made available** under any circumstances.  
 > Do not open issues or pull requests asking for source access — those will be closed without response.
+
+---
+
+## 📑 Table of Contents
+
+- [About the Game](#about-the-game)
+- [Dedicated Servers & Anti-Cheat](#dedicated-servers--anti-cheat)
+- [Downloads](#downloads)
+  - [Installing the Game](#installing-the-game)
+  - [Setting Up a Dedicated Server](#setting-up-a-dedicated-server)
+  - [Mod SDK Contents](#mod-sdk-contents)
+- [Modding](#️-modding)
+  - [Prerequisites](#prerequisites)
+  - [Mod Folder Structure](#mod-folder-structure)
+  - [Naming Rules](#naming-rules)
+  - [manifest.json](#manifestjson)
+  - [Supported Asset Types](#supported-asset-types)
+  - [Avoiding Conflicts with Other Mods](#avoiding-conflicts-with-other-mods)
+  - [Available Autoloads](#available-autoloads)
+  - [GameEvents Signals](#gameevents-signals)
+  - [Building Your Mod](#building-your-mod)
+  - [Installing a Mod on a Server](#installing-a-mod-on-a-server)
+- [Troubleshooting](#troubleshooting)
+- [Versioning](#versioning)
+- [Changelog](#changelog)
+- [Sharing Your Mod](#sharing-your-mod)
+- [License](#license)
 
 ---
 
