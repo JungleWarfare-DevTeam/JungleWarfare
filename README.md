@@ -46,6 +46,7 @@
 - ⚔️ **Raid other players** — knock down their bases, take their resources, dominate the map
 - 🌿 **The jungle is the third enemy** — terrain, wildlife, and visibility all work against you
 - 🖥️ **Dedicated servers only** — no peer-to-peer, no local hosting, no offline play
+- 🥽 **VR support** — a full VR client is available alongside the standard client
 - 🚫 **Zero tolerance for cheating** — see the server rules below
 
 > There is no save system. What you build, you defend. What you lose, you lose.
@@ -79,10 +80,11 @@ All official releases are published here by the Jungle Warfare Dev Team:
 | Download | Who it's for |
 |---|---|
 | 🎮 **Game Client** (`.exe` / `.AppImage` / `.dmg`) | Players who want to connect to servers and play |
-| 🖥️ **Dedicated Server** (`.exe` / `.tar.gz`) | Anyone who wants to host their own server |
+| 🥽 **VR Client** (`.exe` / `.AppImage` / `.dmg`) | Players with a VR headset |
+| 🖥️ **Dedicated Server** (`.exe` / `.AppImage` / `.dmg`) | Anyone who wants to host their own server |
 | 🛠️ **Mod SDK** (`.zip`) | Modders who want to build mods for their server |
 
-**Supported platforms:** Windows, Linux, macOS
+**Supported platforms:** Windows, Linux, macOS — across all releases
 
 > 🔒 **The source code is not included in any release and is not publicly available.**  
 > The binaries are the only form in which the game is distributed.
