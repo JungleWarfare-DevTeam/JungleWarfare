@@ -19,8 +19,14 @@
 **Build. Command. Raid. Survive.**  
 *A jungle survival war game — with a full modding framework.*
 
-[![Latest Release](https://img.shields.io/github/v/release/your-org/jungle-warfare?style=for-the-badge&color=3a6b35&label=Latest+Release)](JungleWarfare-DevTeam/JungleWarfare/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/your-org/jungle-warfare/total?style=for-the-badge&color=2d5016&label=Total+Downloads)](JungleWarfare-DevTeam/JungleWarfare/releases)
+<p align="center">
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="Latest Release" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="Total Downloads" />
+  </a>
+</p>
 [![Godot 4.x](https://img.shields.io/badge/Godot-4.x-478cbf?style=for-the-badge&logo=godotengine&logoColor=white)](https://godotengine.org/)
 [![GDScript](https://img.shields.io/badge/Mods-GDScript-478cbf?style=for-the-badge)](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/)
 [![Source Code](https://img.shields.io/badge/Source_Code-Closed-red?style=for-the-badge)]()
