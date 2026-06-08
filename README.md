@@ -263,8 +263,6 @@ These are always available in your GDScript:
 |---|---|
 | `player_joined(player)` | A player joins the server |
 | `player_left(player)` | A player disconnects |
-| `map_changed(map_id)` | The map changes |
-
 ---
 
 ### Building Your Mod
