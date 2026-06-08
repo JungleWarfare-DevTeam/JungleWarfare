@@ -19,8 +19,8 @@
 **Build. Command. Raid. Survive.**  
 *A jungle survival war game — with a full modding framework.*
 
-[![Latest Release](https://img.shields.io/github/v/release/your-org/jungle-warfare?style=for-the-badge&color=3a6b35&label=Latest+Release)](JungleWarfare-DevTeam/JungleWarfare/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/your-org/jungle-warfare/total?style=for-the-badge&color=2d5016&label=Total+Downloads)](JungleWarfare-DevTeam/JungleWarfare/releases)
+[![Latest Release](https://img.shields.io/github/v/release/your-org/jungle-warfare?style=for-the-badge&color=3a6b35&label=Latest+Release)](../../releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/your-org/jungle-warfare/total?style=for-the-badge&color=2d5016&label=Total+Downloads)](../../releases)
 [![Godot 4.x](https://img.shields.io/badge/Godot-4.x-478cbf?style=for-the-badge&logo=godotengine&logoColor=white)](https://godotengine.org/)
 [![GDScript](https://img.shields.io/badge/Mods-GDScript-478cbf?style=for-the-badge)](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/)
 [![Source Code](https://img.shields.io/badge/Source_Code-Closed-red?style=for-the-badge)]()
@@ -298,6 +298,24 @@ Restart the server. Connecting clients will receive the mod automatically — no
 **ID conflicts with another mod**
 - Prefix all registered IDs with your mod ID (see above)
 - Use `ModLoader.is_mod_loaded("other_mod_id")` to check before registering shared resources
+
+---
+
+## 🔢 Versioning
+
+Jungle Warfare releases follow **Semantic Versioning** — every release is numbered `vMAJOR.MINOR.PATCH`.
+
+| Number | Changes when... | Example |
+|---|---|---|
+| **MAJOR** | A huge update — new core game systems, or breaking changes to the mod API | `v1.0.0` → `v2.0.0` |
+| **MINOR** | New features, new content, or new mod API additions that don't break existing mods | `v1.3.0` → `v1.4.0` |
+| **PATCH** | Bug fixes and hotfixes only — nothing new, nothing broken | `v1.4.1` → `v1.4.2` |
+
+**Rules:** when MAJOR increases, MINOR and PATCH reset to `0`. When MINOR increases, PATCH resets to `0`.
+
+> Releases marked `v0.x.x` are **early access** — the game is still in active development. The `v1.0.0` milestone marks full launch.
+
+If you are a modder, pay attention to MAJOR bumps — these may require updates to your mod to stay compatible. MINOR and PATCH releases will not break existing mods.
 
 ---
 
